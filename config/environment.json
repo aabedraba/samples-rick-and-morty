@@ -1,7 +1,0 @@
-{
-  "environmentVariables": {
-    "BASE_URL": {
-      "variableType": "config"
-    }
-  }
-}
