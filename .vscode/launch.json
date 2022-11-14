@@ -9,18 +9,18 @@
       "processId": "${command:PickProcess}",
       "request": "attach",
       "skipFiles": ["<node_internals>/**"],
-      "type": "pwa-node"
+      "type": "node"
     },
     {
-      "type": "pwa-node",
+      "type": "node",
       "request": "launch",
       "name": "Dev",
       "env": {
         "NODE_ENV": "development"
       },
       "smartStep": true,
-      "runtimeExecutable": "yarn",
-      "runtimeArgs": ["dev"],
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run-script","dev"],
       "skipFiles": ["<node_internals>/**"],
       "console": "integratedTerminal",
       "sourceMaps": true,
@@ -30,46 +30,33 @@
       ]
     },
     {
-      "type": "pwa-node",
+      "type": "node",
       "request": "launch",
       "name": "Start",
       "env": {
         "NODE_ENV": "development"
       },
       "smartStep": true,
-      "runtimeExecutable": "yarn",
-      "runtimeArgs": ["serve"],
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run-script","serve"],
       "skipFiles": ["<node_internals>/**"],
       "console": "integratedTerminal"
     },
     {
-      "type": "pwa-node",
-      "request": "launch",
-      "name": "Build: Node",
-      "env": {
-        "NODE_ENV": "development"
-      },
-      "smartStep": true,
-      "runtimeExecutable": "yarn",
-      "runtimeArgs": ["build", "--platform", "node"],
-      "skipFiles": ["<node_internals>/**"],
-      "console": "integratedTerminal"
-    },
-    {
-      "type": "pwa-node",
+      "type": "node",
       "request": "launch",
       "name": "Build: Workers",
       "env": {
         "NODE_ENV": "development"
       },
       "smartStep": true,
-      "runtimeExecutable": "yarn",
-      "runtimeArgs": ["build", "--platform", "worker"],
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run-script","build"],
       "skipFiles": ["<node_internals>/**"],
       "console": "integratedTerminal"
     },
     {
-      "type": "pwa-node",
+      "type": "node",
       "request": "launch",
       "name": "Run: Tests",
       "env": {
@@ -77,8 +64,8 @@
         "__ZUPLO_LOG_LEVEL": "info"
       },
       "smartStep": true,
-      "runtimeExecutable": "yarn",
-      "runtimeArgs": ["test"],
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run-script", "test"],
       "skipFiles": ["<node_internals>/**"],
       "console": "integratedTerminal"
     }
