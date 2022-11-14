@@ -87,7 +87,8 @@
         "outbound": [
           "replace-urls"
         ]
-      }
+      },
+      "operationId": "e5c79dba-9fbf-4420-9dc2-b838931eccb6"
     },
     {
       "tags": [
@@ -135,7 +136,8 @@
         "outbound": [
           "replace-urls"
         ]
-      }
+      },
+      "operationId": "9d79d4a2-499e-41d3-98c1-c2142a62933a"
     },
     {
       "tags": [
@@ -208,7 +210,8 @@
         "outbound": [
           "replace-urls"
         ]
-      }
+      },
+      "operationId": "303c3a97-4d84-4fca-b5be-f29c2512c83c"
     },
     {
       "tags": [
@@ -256,7 +259,8 @@
         "outbound": [
           "replace-urls"
         ]
-      }
+      },
+      "operationId": "f556f0ae-5263-4a9a-9c49-21ab3e73c02e"
     },
     {
       "tags": [
@@ -321,7 +325,8 @@
         "outbound": [
           "replace-urls"
         ]
-      }
+      },
+      "operationId": "ffabaf57-ffd4-430a-a39b-34471b81a173"
     },
     {
       "tags": [
@@ -369,7 +374,8 @@
         "outbound": [
           "replace-urls"
         ]
-      }
+      },
+      "operationId": "abff4864-19d8-4a11-ab40-db8ff306b0d6"
     },
     {
       "methods": [
@@ -390,7 +396,8 @@
       "policies": {
         "inbound": [],
         "outbound": []
-      }
+      },
+      "operationId": "23d47c15-786e-4980-8bf1-a5b1e4287787"
     },
     {
       "methods": [
@@ -412,7 +419,8 @@
       "policies": {
         "inbound": [],
         "outbound": []
-      }
+      },
+      "operationId": "0eaf07e1-df2a-4940-b182-e16fbaf1767d"
     },
     {
       "methods": [
@@ -431,7 +439,8 @@
       "policies": {
         "inbound": [],
         "outbound": []
-      }
+      },
+      "operationId": "9ea492d0-e996-4eb0-8b00-8ee2f5fbe103"
     }
   ],
   "versions": [
